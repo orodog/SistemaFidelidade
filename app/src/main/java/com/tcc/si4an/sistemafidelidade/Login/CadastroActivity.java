@@ -1,13 +1,16 @@
-package com.tcc.si4an.sistemafidelidade;
+package com.tcc.si4an.sistemafidelidade.Login;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class HomeActivity extends AppCompatActivity {
+import com.tcc.si4an.sistemafidelidade.R;
+
+public class CadastroActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_cadastro);
     }
+
 }
