@@ -16,7 +16,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
     }
 
-    // temporario apenas para testar o app
+    // metodo temporario apenas para testar o app
     public void btLogar (View view){
         startActivity(new Intent(this,HomeActivity.class));
     }
